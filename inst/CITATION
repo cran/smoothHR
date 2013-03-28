@@ -1,0 +1,16 @@
+PKG <- "smoothHR"
+citHeader( paste("To cite the R package ", PKG, " in publications use:", sep="") )
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+url <- paste("http://CRAN.R-project.org/package=", PKG, sep="")
+
+citEntry(
+	entry = "Manual",
+	title = "smoothHR: Smooth Hazard Ratio Curves taking a Reference Value",
+	author = personList( as.person("Artur Agostinho Araújo"), as.person("Luís Meira-Machado") ),
+	year = year,
+	note = vers,
+	url = url,
+	textVersion = paste("Artur Agostinho Araújo and Luís Meira-Machado (", year, "). smoothHR: Smooth Hazard Ratio Curves taking a Reference Value. ", vers, " URL ", url, ".", sep="")
+)

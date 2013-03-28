@@ -1,0 +1,6 @@
+importFrom("survival", coxph, pspline)
+importFrom("splines", ns)
+export(smoothHR, dfmacox, plot.HR, predict.HR, print.HR)
+S3method(plot, HR)
+S3method(predict, HR)
+S3method(print, HR)
