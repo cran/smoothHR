@@ -1,5 +1,4 @@
 smoothHR <- function(data, time=NULL, time2=NULL, status=NULL, formula=NULL, coxfit, status.event=NULL) {
-	require(survival)
 	ctype <- "FALSE"
 	modelfit <- "TRUE"
 	mydata2 <- deparse( substitute(data) )

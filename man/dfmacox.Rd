@@ -75,3 +75,7 @@ mydf_ps <- dfmacox(time="lenfol", status="fstat", nl.predictors=c("los", "bmi"),
 other.predictors=c("age", "hr", "gender", "diasbp"), smoother="pspline", data=whas500)
 print(mydf_ps)
 }
+
+\keyword{models}
+\keyword{regression}
+\keyword{survival}

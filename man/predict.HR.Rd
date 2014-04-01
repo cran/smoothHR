@@ -60,3 +60,6 @@ pdval <- c(1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 18, 22, 25)
 predict(hr2, predictor="los", pred.value=7, conf.level=0.95, prediction.values=pdval,
 ref.label="Ref.")
 }
+
+\keyword{methods}
+\keyword{survival}

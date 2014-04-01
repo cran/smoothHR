@@ -67,3 +67,7 @@ hr2 <- smoothHR( data=whas500, time="lenfol", status="fstat", formula=~age+hr+ge
 pspline(bmi)+pspline(los) )
 print(hr2)
 }
+
+\keyword{models}
+\keyword{regression}
+\keyword{survival}

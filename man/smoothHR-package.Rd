@@ -13,8 +13,8 @@
 	\tabular{ll}{
 		Package: \tab smoothHR\cr
 		Type: \tab Package\cr
-		Version: \tab 1.0\cr
-		Date: \tab 2013-03-28\cr
+		Version: \tab 1.0.1\cr
+		Date: \tab 2014-04-01\cr
 		License: \tab GPL (>= 2)\cr
 		LazyLoad: \tab yes\cr
 		LazyData: \tab yes\cr
@@ -29,3 +29,5 @@
 \references{
 	Carmen Cadarso-Suarez, Luis Meira-Machado, Thomas Kneib and Francisco Gude. Flexible hazard ratio curves for continuous predictors in multi-state models: a P-spline approach. Statistical Modelling, 2010, 10:291-314.
 }
+
+\keyword{package}

@@ -1,6 +1,5 @@
 dfmacox <- function(time, time2=NULL, status, nl.predictors, other.predictors, smoother, method, mindf=NULL, maxdf=NULL, ntimes=NULL, data) {
 	options(warn=-1)
-	require(survival)
 	ctype <- "FALSE"
 	if ( missing(data) ) stop("The argument data is missing")
 	if ( missing(time) ) stop("The argument time is missing")
@@ -155,7 +154,6 @@ dfmacox <- function(time, time2=NULL, status, nl.predictors, other.predictors, s
 		aicc <- -2*fit1$loglik[2]+2*( fit1$nevent*(sum(fit1$df)+1)/(fit1$nevent-sum(fit1$df)-2) )
 		bic <- -2*fit1$loglik[2]+log(fit1$nevent)*sum(fit1$df)
 	} else if (smoother == "ns") {
-		require(splines)
 		if ( is.null(time2) ) mydf <- dfnsmult(time=time, status=status, nl.predictors=nl.predictors, other.predictors=other.predictors, method=method, mindf=mindf, maxdf=maxdf, ntimes=ntimes, data=data)
 		else mydf <- dfnsmult(time=time, time2=time2, status=status, nl.predictors=nl.predictors, other.predictors=other.predictors, method=method, mindf=mindf, maxdf=maxdf, ntimes=ntimes, data=data)
 		nnl1 <- seq(1:nnl)

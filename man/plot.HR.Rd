@@ -71,3 +71,7 @@ ref.label="Ref.", xaxt="n")
 xx <- c(0, 5, 10, 15, 20, 25, 30)
 axis(1, xx)
 }
+
+\keyword{hplot}
+\keyword{methods}
+\keyword{survival}

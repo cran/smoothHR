@@ -28,3 +28,5 @@
 \examples{
 data(whas500)
 }
+
+\keyword{datasets}
