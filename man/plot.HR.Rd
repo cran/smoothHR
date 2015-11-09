@@ -38,7 +38,7 @@ ref.label=NULL, col, main, xlab, ylab, lty, xlim, ylim, xx, ...)}
 
 \value{No value is returned.}
 
-\author{Artur Agostinho Araújo and Luís Meira-Machado}
+\author{Artur Araújo and Luís Meira-Machado}
 
 \references{
 	Carmen Cadarso-Suarez, Luis Meira-Machado, Thomas Kneib and Francisco Gude. Flexible hazard ratio curves for continuous predictors in multi-state models: a P-spline approach. Statistical Modelling, 2010, 10:291-314

@@ -19,7 +19,7 @@
 
 \value{No value is returned.}
 
-\author{Artur Agostinho Araújo and Luís Meira-Machado}
+\author{Artur Araújo and Luís Meira-Machado}
 
 %\references{
 %% ~put references to the literature/web site here ~

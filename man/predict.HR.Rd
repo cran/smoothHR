@@ -28,7 +28,7 @@ prediction.values=NULL, round.x=NULL, ref.label=NULL, ...)}
 
 \value{Returns a matrix with the prediction values.}
 
-\author{Artur Agostinho Araújo and Luís Meira-Machado}
+\author{Artur Araújo and Luís Meira-Machado}
 
 \references{
 	Carmen Cadarso-Suarez, Luis Meira-Machado, Thomas Kneib and Francisco Gude. Flexible hazard ratio curves for continuous predictors in multi-state models: a P-spline approach. Statistical Modelling, 2010, 10:291-314.

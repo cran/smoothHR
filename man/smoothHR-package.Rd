@@ -2,7 +2,7 @@
 \name{smoothHR-package}
 \alias{smoothHR-package}
 \docType{package}
-\title{Smooth Hazard Ratio Curves taking a Reference Value}
+\title{Smooth Hazard Ratio Curves Taking a Reference Value}
 \description{
 	Provides flexible hazard ratio curves allowing non-linear relationships between continuous predictors and survival.
 	To better understand the effects that each continuous covariate has on the outcome, results are expressed in terms of hazard ratio curves,
@@ -13,8 +13,8 @@
 	\tabular{ll}{
 		Package: \tab smoothHR\cr
 		Type: \tab Package\cr
-		Version: \tab 1.0.1\cr
-		Date: \tab 2014-04-01\cr
+		Version: \tab 1.0.2\cr
+		Date: \tab 2015-10-29\cr
 		License: \tab GPL (>= 2)\cr
 		LazyLoad: \tab yes\cr
 		LazyData: \tab yes\cr
@@ -22,8 +22,8 @@
 }
 
 \author{
-	Artur Agostinho Araújo and Luís Meira-Machado \email{lmachado@math.uminho.pt}\cr
-	Maintainer: Artur Agostinho Araújo \email{artur.stat@gmail.com}
+	Artur Araújo and Luís Meira-Machado \email{lmachado@math.uminho.pt}\cr
+	Maintainer: Artur Araújo \email{artur.stat@gmail.com}
 }
 
 \references{

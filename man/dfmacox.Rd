@@ -48,7 +48,7 @@ smoother, method, mindf=NULL, maxdf=NULL, ntimes=NULL, data)}
 	\item{nl.predictors}{Vector with the nonlinear predictors.}
 }
 
-\author{Artur Agostinho Araújo and Luís Meira-Machado}
+\author{Artur Araújo and Luís Meira-Machado}
 
 \references{
 	Eilers, Paul H. and Marx, Brian D. (1996). Flexible smoothing with B-splines and penalties. Statistical Science, 11, 89-121.
