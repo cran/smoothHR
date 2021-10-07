@@ -3,9 +3,9 @@
 \alias{smoothHR}
 \title{Smooth Hazard Ratio Curves Taking a Reference Value}
 \description{
-	Provides flexible hazard ratio curves allowing non-linear relationships between continuous predictors and survival.
-	To better understand the effects that each continuous covariate has on the outcome, results are expressed in terms of hazard ratio curves,
-	taking a specific covariate value as reference. Confidence bands for these curves are also derived.
+Provides flexible hazard ratio curves allowing non-linear relationships between continuous predictors and survival.
+To better understand the effects that each continuous covariate has on the outcome, results are expressed in terms of hazard ratio curves,
+taking a specific covariate value as reference. Confidence bands for these curves are also derived.
 }
 \usage{smoothHR(data, time=NULL, time2=NULL, status=NULL, formula=NULL, coxfit,
 status.event=NULL)}
@@ -40,7 +40,9 @@ status.event=NULL)}
 \author{Artur Araújo and Luís Meira-Machado}
 
 \references{
-	Carmen Cadarso-Suarez, Luís Meira-Machado, Thomas Kneib and Francisco Gude. Flexible hazard ratio curves for continuous predictors in multi-state models: a P-spline approach. Statistical Modelling, 2010, 10:291-314.
+Cadarso-Suarez, C. and Meira-Machado, L. and Kneib, T. and Gude, F. (2010). Flexible hazard ratio curves for continuous predictors in multi-state models: an application to breast cancer data. \emph{Statistical Modelling}, \bold{10(3)}, 291-314. \doi{10.1177/1471082X0801000303}
+
+Meira-Machado, L. and Cadarso-Suárez, C. and Gude, F. and Araújo, A. (2013). smoothHR: An R Package for Pointwise Nonparametric Estimation of Hazard Ratio Curves of Continuous Predictors, \emph{Computational and Mathematical Methods in Medicine}, \bold{2013}, Article ID 745742, 11 pages. \doi{10.1155/2013/745742}
 }
 
 %\note{
