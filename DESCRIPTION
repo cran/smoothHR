@@ -1,8 +1,8 @@
 Encoding: UTF-8
 Package: smoothHR
 Type: Package
-Version: 1.0.3
-Date: 2021-10-06
+Version: 1.0.4
+Date: 2022-09-04
 Title: Smooth Hazard Ratio Curves Taking a Reference Value
 Authors@R: c(
 	person(
@@ -19,22 +19,22 @@ Authors@R: c(
 		email = "lmachado@math.uminho.pt",
 		comment = c(ORCID = "0000-0002-8577-7665")
 	) )
-Depends: R (>= 3.1.0), survival, splines
+Depends: R (>= 2.12.0), survival, splines
 Description: Provides flexible hazard ratio curves allowing non-linear
   relationships between continuous predictors and survival.
   To better understand the effects that each continuous covariate
   has on the outcome, results are ex pressed in terms of hazard
   ratio curves, taking a specific covariate value as reference.
   Confidence bands for these curves are also derived.
-License: GPL-3 | file LICENSE
+License: GPL-3
 URL: https://github.com/arturstat/smoothHR
 BugReports: https://github.com/arturstat/smoothHR/issues
 LazyLoad: yes
 LazyData: yes
 NeedsCompilation: no
-Packaged: 2021-10-06 18:17:24 UTC; User
+Packaged: 2022-09-04 15:16:20 UTC; User
 Author: Artur Araujo [aut, cre] (<https://orcid.org/0000-0003-1419-4208>),
   Luis Meira-Machado [aut] (<https://orcid.org/0000-0002-8577-7665>)
 Maintainer: Artur Araujo <artur.stat@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-10-07 07:40:02 UTC
+Date/Publication: 2022-09-04 16:00:02 UTC

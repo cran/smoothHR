@@ -2,6 +2,14 @@
 
 \title{NEWS file for the smoothHR package}
 
+\section{Changes in version 1.0.4}{
+  \itemize{
+    \item{Improved the documentation.}
+    \item{Removed LICENSE file from build.}
+    \item{Added option to plot hazard ratio and its log.}
+  }
+}
+
 \section{Changes in version 1.0.3}{
   \itemize{
     \item{Improved the documentation.}
