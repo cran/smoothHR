@@ -2,6 +2,14 @@
 
 \title{NEWS file for the smoothHR package}
 
+\section{Changes in version 1.0.5}{
+  \itemize{
+    \item{plot.HR now invisibly returns the plot data.}
+    \item{Updated CITATION file.}
+    \item{Fixed predict.HR taking wrong reference value.}
+  }
+}
+
 \section{Changes in version 1.0.4}{
   \itemize{
     \item{Improved the documentation.}
